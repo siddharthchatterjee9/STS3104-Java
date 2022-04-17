@@ -1,0 +1,7 @@
+Create 5 classes as shown in the diagram and create data members and methods as mentioned below:
+Teaching Staff and Non-Teaching Staff -> Staff
+Staff and Student -> Person
+Person choice code:
+1 for Student
+2 for Teaching Staff
+3 for Non-Teaching Staff
