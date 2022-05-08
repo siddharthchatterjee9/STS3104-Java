@@ -1,3 +1,4 @@
+Question 1:
 Create 5 classes as shown in the diagram and create data members and methods as mentioned below:
 Teaching Staff and Non-Teaching Staff -> Staff
 Staff and Student -> Person
@@ -5,3 +6,38 @@ Person choice code:
 1 for Student
 2 for Teaching Staff
 3 for Non-Teaching Staff
+
+Question 2:
+Super() keyword - Constructor
+Create an Event class with protected attributes:
+Datatype   String  String  String   String
+Attributes  name   detail   type  organiserName
+Create an Exhibition class with following private attributes:
+Attributes noOfStalls
+Datatype    Integer
+Create a StageEvent class with following private attributes
+Attributes   noOfSeats
+Datatype     Integer
+
+Question 3:
+REWARD CALCULATION
+Create a class named VISACard with the following private attributes
+Attributes    holderName
+Datatype       String
+String          CCV
+the VISACard class has the following methods
+Method name -  public Double   computeRewardPoints(String purchaseType, Double amount)
+Method Description - This method accepts the type and amount as inputs and displays the reward points which is 1% of the amount
+Create a class named HPVISACard that extends VISACard with
+the following methods
+Method name
+Method Description
+This method accepts the type
+and amount as inputs and
+displays the reward points
+which is 1% of the amount. If
+the type is "Fuel" 10 more points
+are given.
+public Double
+computeRewardPoints(String
+purchaseType, Double amount)
